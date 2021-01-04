@@ -1,0 +1,10 @@
+import random
+def Rand(start, end, num, words): 
+    for j in range(num): 
+        l=random.randint(start, end)
+        print(words(l))
+num = 5
+start = 0
+end = 20
+words=[]
+Rand(start, end, num, words)
